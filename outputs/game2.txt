@@ -1,0 +1,108 @@
+Death from playing too much/starvation outputs:
+
+5:02:01 PM: Executing ':PetSim.Observer.Main.main()'…
+
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :PetSim.Observer.Main.main()
+Dec 03, 2025 5:02:01 PM PetSim.Observer.Main main
+INFO: Welcome to Virtual Pet Game!
+Dec 03, 2025 5:02:01 PM PetSim.Observer.Main main
+INFO: Enter your pet's name:
+dada
+Dec 03, 2025 5:02:11 PM PetSim.Observer.Main main
+INFO: Choose a pet type: cat, dog, bird, fish, hamster
+dog
+Dec 03, 2025 5:02:14 PM PetSim.Observer.Main main
+INFO:
+--- Pet Simulator Started ---
++--------------------------+
+ Virtual Pet Game
++--------------------------+
+  /???????\
+ (  �?�  )
+  \_____/
+
+Pet: dada | Mood: Sad
+Hunger: 50 Energy: 50 Health: 50
+[ Feed ] [ Play ] [ Rest ]
+[ Save ] [ Load ]
++--------------------------+
+play
++--------------------------+
+ Virtual Pet Game
++--------------------------+
+  /???????\
+ (  �?�  )
+  \_____/
+
+Pet: dada | Mood: Sad
+Hunger: 60 Energy: 40 Health: 45
+[ Feed ] [ Play ] [ Rest ]
+[ Save ] [ Load ]
++--------------------------+
+Dec 03, 2025 5:02:21 PM PetSim.Observer.Main main
+INFO: Played with dada.
+
+play
++--------------------------+
+ Virtual Pet Game
++--------------------------+
+  /???????\
+ (  �?�  )
+  \_____/
+
+Pet: dada | Mood: Sad
+Hunger: 70 Energy: 30 Health: 40
+[ Feed ] [ Play ] [ Rest ]
+[ Save ] [ Load ]
++--------------------------+
+Dec 03, 2025 5:02:23 PM PetSim.Observer.Main main
+INFO: Played with dada.
+
+play
++--------------------------+
+ Virtual Pet Game
++--------------------------+
+  /???????\
+ (  �?�  )
+  \_____/
+
+Pet: dada | Mood: Sad
+Hunger: 80 Energy: 20 Health: 35
+[ Feed ] [ Play ] [ Rest ]
+[ Save ] [ Load ]
++--------------------------+
+Dec 03, 2025 5:02:29 PM PetSim.Observer.Main main
+INFO: Played with dada.
+
+play
++--------------------------+
+ Virtual Pet Game
++--------------------------+
+  /???????\
+ (  �?�  )
+  \_____/
+
+Pet: dada | Mood: Sad
+Hunger: 90 Energy: 10 Health: 30
+[ Feed ] [ Play ] [ Rest ]
+[ Save ] [ Load ]
++--------------------------+
+Dec 03, 2025 5:02:32 PM PetSim.Observer.Main main
+INFO: Played with dada.
+
+rest
+Your pet died from starving. Game over.
+
+BUILD SUCCESSFUL in 33s
+2 actionable tasks: 1 executed, 1 up-to-date
+Dec 03, 2025 5:02:35 PM PetSim.Observer.Main main
+INFO: dada is rested.
+
+Dec 03, 2025 5:02:35 PM PetSim.Observer.Main main
+INFO: Game ended.
+5:02:35 PM: Execution finished ':PetSim.Observer.Main.main()'.
+

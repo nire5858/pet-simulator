@@ -7,10 +7,14 @@ import PetSim.Observer.Commands.RestCommand;
 public class GameFacade {
     private Pet pet;
 
-    public GameFacade(String petName) {
-        pet = PetFactory.createPet(petName);
+    public GameFacade(String petName, String petType) {
+        pet = PetFactory.createPet(petName, petType);
         pet.addObserver(new ConsoleUI());
     }
+    public boolean isAlive() {
+        return pet.isAlive();
+    }
+    public String getPetName() {return pet.getName();}
 
     public void feed() { new FeedCommand(pet).execute(); }
     public void play() { new PlayCommand(pet).execute(); }
@@ -23,5 +27,8 @@ public class GameFacade {
     public void load() throws Exception {
         PetSaveLoad.load(pet);
         pet.addObserver(new ConsoleUI());
+    }
+    public void showUI() {
+        pet.showInitialUI();
     }
 }

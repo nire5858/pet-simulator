@@ -4,15 +4,22 @@ import PetSim.Observer.Pet;
 
 public class SadState implements MoodState {
     public void onFeed(Pet pet) {
-        pet.setMood(new HappyState());
+        if (pet.getObjective() >= 10)
+            pet.setMood(new HappyState());
     }
 
     public void onPlay(Pet pet) {
-        pet.setMood(new HappyState());
+        if (pet.getObjective() >= 10)
+            pet.setMood(new HappyState());
+    }
+
+    public void onRest(Pet pet) {
+        if (pet.getObjective() >= 10)
+            pet.setMood(new HappyState());
     }
 
     public String getName() {
-        return "Sad 😢";
+        return "Sad";
     }
 }
 

@@ -1,0 +1,108 @@
+Dying from eating too much/obesity output:
+
+
+4:58:25 PM: Executing ':PetSim.Observer.Main.main()'…
+
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :PetSim.Observer.Main.main()
+Dec 03, 2025 4:58:26 PM PetSim.Observer.Main main
+INFO: Welcome to Virtual Pet Game!
+Dec 03, 2025 4:58:26 PM PetSim.Observer.Main main
+INFO: Enter your pet's name:
+SnowBunny
+Dec 03, 2025 4:58:33 PM PetSim.Observer.Main main
+INFO: Choose a pet type: cat, dog, bird, fish, hamster
+hamster
+Dec 03, 2025 4:58:36 PM PetSim.Observer.Main main
+INFO:
+--- Pet Simulator Started ---
++--------------------------+
+ Virtual Pet Game
++--------------------------+
+ (")_(")
+(='.'=)
+(')_(')
+
+Pet: SnowBunny | Mood: Sad
+Hunger: 50 Energy: 50 Health: 50
+[ Feed ] [ Play ] [ Rest ]
+[ Save ] [ Load ]
++--------------------------+
+feed
++--------------------------+
+ Virtual Pet Game
++--------------------------+
+ (")_(")
+(='.'=)
+(')_(')
+
+Pet: SnowBunny | Mood: Sad
+Hunger: 40 Energy: 55 Health: 60
+[ Feed ] [ Play ] [ Rest ]
+[ Save ] [ Load ]
++--------------------------+
+Dec 03, 2025 4:58:39 PM PetSim.Observer.Main main
+INFO: Fed SnowBunny.
+
+feed
++--------------------------+
+ Virtual Pet Game
++--------------------------+
+ (")_(")
+(='.'=)
+(')_(')
+
+Pet: SnowBunny | Mood: Sad
+Hunger: 30 Energy: 60 Health: 70
+[ Feed ] [ Play ] [ Rest ]
+[ Save ] [ Load ]
++--------------------------+
+Dec 03, 2025 4:58:41 PM PetSim.Observer.Main main
+INFO: Fed SnowBunny.
+
+feed
++--------------------------+
+ Virtual Pet Game
++--------------------------+
+ (")_(")
+(='.'=)
+(')_(')
+
+Pet: SnowBunny | Mood: Sad
+Hunger: 20 Energy: 65 Health: 80
+[ Feed ] [ Play ] [ Rest ]
+[ Save ] [ Load ]
++--------------------------+
+Dec 03, 2025 4:58:45 PM PetSim.Observer.Main main
+INFO: Fed SnowBunny.
+
+feed
++--------------------------+
+ Virtual Pet Game
++--------------------------+
+ (")_(")
+(='.'=)
+(')_(')
+
+Pet: SnowBunny | Mood: Sad
+Hunger: 10 Energy: 70 Health: 90
+[ Feed ] [ Play ] [ Rest ]
+[ Save ] [ Load ]
++--------------------------+
+Dec 03, 2025 4:58:47 PM PetSim.Observer.Main main
+INFO: Fed SnowBunny.
+
+feed
+Your pet died from obesity. Game over.
+
+BUILD SUCCESSFUL in 23s
+2 actionable tasks: 2 executed
+Dec 03, 2025 4:58:49 PM PetSim.Observer.Main main
+INFO: Fed SnowBunny.
+
+Dec 03, 2025 4:58:49 PM PetSim.Observer.Main main
+INFO: Game ended.
+4:58:49 PM: Execution finished ':PetSim.Observer.Main.main()'.

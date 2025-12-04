@@ -11,8 +11,10 @@ public class HappyState implements MoodState {
         // stays happy
     }
 
+    public void onRest(Pet pet) {}
+
     public String getName() {
-        return "Happy 😊";
+        return "Happy";
     }
 }
 

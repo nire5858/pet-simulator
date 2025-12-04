@@ -1,6 +1,7 @@
 package PetSim.Observer;
 
 
+import PetSim.Observer.MoodStates.HappyState;
 import PetSim.Observer.MoodStates.MoodState;
 
 import java.util.ArrayList;
@@ -11,33 +12,87 @@ public class Pet {
     private int hunger;
     private int energy;
     private int health;
+    private String type;
     private MoodState mood;
+    private double objective = 0;
+    private boolean alive = true;
 
     private final List<PetObserver> observers = new ArrayList<>();
 
-    public Pet(String name, MoodState mood) {
+    public Pet(String name, String type, MoodState mood) {
         this.name = name;
         this.mood = mood;
+        this.type = type;
         this.hunger = 50;
         this.energy = 50;
         this.health = 50;
+        this.objective = 0;
     }
+
+    public double getObjective() { return objective; }
+    public boolean isAlive() { return alive; }
 
     public void feed() {
         hunger -= 10;
+        health += 10;
+        energy += 5;
+        objective += 1.5;
         mood.onFeed(this);
-        notifyObservers();
+        checkState();
+        if (alive) notifyObservers();
     }
 
     public void play() {
+        hunger += 10;
+        health -= 5;
         energy -= 10;
+        objective += 1.5;
         mood.onPlay(this);
-        notifyObservers();
+        checkState();
+        if (alive) notifyObservers();
     }
 
     public void rest() {
+        hunger += 10;
+        health += 5;
         energy += 15;
-        notifyObservers();
+        objective += 1.5;
+        mood.onRest(this);
+        checkState();
+        if (alive) notifyObservers();
+    }
+
+    private void checkState() {
+
+        if (energy <= 0) {
+            energy = 0;
+            System.out.println("Your pet is resting due to exhaustion.");
+            rest();
+            return;
+        }
+
+        if (hunger >= 100) {
+            alive = false;
+            System.out.println("Your pet died from starving. Game over.");
+            return;
+        }
+        if (health >= 100) {
+            alive = false;
+            System.out.println("Your pet died from obesity. Game over.");
+            return;
+        }
+
+
+        if (health <= 0) {
+            alive = false;
+            System.out.println("Your pet died from losing health. Game over.");
+            return;
+        }
+
+        if (objective >= 10 && (mood instanceof HappyState)) {
+            System.out.println("Your pet is fully happy! You win!");
+            alive = false;
+        }
     }
 
     public void setMood(MoodState mood) {
@@ -72,6 +127,18 @@ public class Pet {
         hunger = h;
         energy = e;
         health = he;
+    }
+
+    public String getType() { return type; }
+
+    public void showInitialUI() {
+        for (PetObserver obs : observers) {
+            obs.update(this);
+        }
+    }
+
+    public String getName() {
+        return name;
     }
 }
 
