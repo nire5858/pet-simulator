@@ -1,21 +1,21 @@
 Death from playing too much/starvation outputs:
 
-5:02:01 PM: Executing ':PetSim.Observer.Main.main()'…
+5:02:01 PM: Executing ':PetSim.Observer.PetSimulatorRunner.main()'…
 
 > Task :compileJava UP-TO-DATE
 > Task :processResources NO-SOURCE
 > Task :classes UP-TO-DATE
 
-> Task :PetSim.Observer.Main.main()
-Dec 03, 2025 5:02:01 PM PetSim.Observer.Main main
+> Task :PetSim.Observer.PetSimulatorRunner.main()
+Dec 03, 2025 5:02:01 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Welcome to Virtual Pet Game!
-Dec 03, 2025 5:02:01 PM PetSim.Observer.Main main
+Dec 03, 2025 5:02:01 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Enter your pet's name:
 dada
-Dec 03, 2025 5:02:11 PM PetSim.Observer.Main main
+Dec 03, 2025 5:02:11 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Choose a pet type: cat, dog, bird, fish, hamster
 dog
-Dec 03, 2025 5:02:14 PM PetSim.Observer.Main main
+Dec 03, 2025 5:02:14 PM PetSim.Observer.PetSimulatorRunner main
 INFO:
 --- Pet Simulator Started ---
 +--------------------------+
@@ -43,7 +43,7 @@ Hunger: 60 Energy: 40 Health: 45
 [ Feed ] [ Play ] [ Rest ]
 [ Save ] [ Load ]
 +--------------------------+
-Dec 03, 2025 5:02:21 PM PetSim.Observer.Main main
+Dec 03, 2025 5:02:21 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Played with dada.
 
 play
@@ -59,7 +59,7 @@ Hunger: 70 Energy: 30 Health: 40
 [ Feed ] [ Play ] [ Rest ]
 [ Save ] [ Load ]
 +--------------------------+
-Dec 03, 2025 5:02:23 PM PetSim.Observer.Main main
+Dec 03, 2025 5:02:23 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Played with dada.
 
 play
@@ -75,7 +75,7 @@ Hunger: 80 Energy: 20 Health: 35
 [ Feed ] [ Play ] [ Rest ]
 [ Save ] [ Load ]
 +--------------------------+
-Dec 03, 2025 5:02:29 PM PetSim.Observer.Main main
+Dec 03, 2025 5:02:29 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Played with dada.
 
 play
@@ -91,7 +91,7 @@ Hunger: 90 Energy: 10 Health: 30
 [ Feed ] [ Play ] [ Rest ]
 [ Save ] [ Load ]
 +--------------------------+
-Dec 03, 2025 5:02:32 PM PetSim.Observer.Main main
+Dec 03, 2025 5:02:32 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Played with dada.
 
 rest
@@ -99,10 +99,10 @@ Your pet died from starving. Game over.
 
 BUILD SUCCESSFUL in 33s
 2 actionable tasks: 1 executed, 1 up-to-date
-Dec 03, 2025 5:02:35 PM PetSim.Observer.Main main
+Dec 03, 2025 5:02:35 PM PetSim.Observer.PetSimulatorRunner main
 INFO: dada is rested.
 
-Dec 03, 2025 5:02:35 PM PetSim.Observer.Main main
+Dec 03, 2025 5:02:35 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Game ended.
-5:02:35 PM: Execution finished ':PetSim.Observer.Main.main()'.
+5:02:35 PM: Execution finished ':PetSim.Observer.PetSimulatorRunner.main()'.
 

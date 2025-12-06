@@ -3,9 +3,9 @@ package PetSim.Observer;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-public class Main {
+public class PetSimulatorRunner {
 
-    private static final Logger logger = Logger.getLogger(Main.class.getName());
+    private static final Logger logger = Logger.getLogger(PetSimulatorRunner.class.getName());
 
     public static void main(String[] args) throws Exception {
 

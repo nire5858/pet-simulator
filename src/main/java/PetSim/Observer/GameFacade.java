@@ -26,7 +26,7 @@ public class GameFacade {
 
     public void load() throws Exception {
         PetSaveLoad.load(pet);
-        pet.addObserver(new ConsoleUI());
+        pet.showInitialUI();
     }
     public void showUI() {
         pet.showInitialUI();

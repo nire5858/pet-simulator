@@ -1,21 +1,21 @@
 Winning output:
 
-5:04:39 PM: Executing ':PetSim.Observer.Main.main()'…
+5:04:39 PM: Executing ':PetSim.Observer.PetSimulatorRunner.main()'…
 
 > Task :compileJava UP-TO-DATE
 > Task :processResources NO-SOURCE
 > Task :classes UP-TO-DATE
 
-> Task :PetSim.Observer.Main.main()
-Dec 03, 2025 5:04:40 PM PetSim.Observer.Main main
+> Task :PetSim.Observer.PetSimulatorRunner.main()
+Dec 03, 2025 5:04:40 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Welcome to Virtual Pet Game!
-Dec 03, 2025 5:04:40 PM PetSim.Observer.Main main
+Dec 03, 2025 5:04:40 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Enter your pet's name:
 glinda
-Dec 03, 2025 5:05:29 PM PetSim.Observer.Main main
+Dec 03, 2025 5:05:29 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Choose a pet type: cat, dog, bird, fish, hamster
 cat
-Dec 03, 2025 5:05:40 PM PetSim.Observer.Main main
+Dec 03, 2025 5:05:40 PM PetSim.Observer.PetSimulatorRunner main
 INFO:
 --- Pet Simulator Started ---
 +--------------------------+
@@ -43,7 +43,7 @@ Hunger: 40 Energy: 55 Health: 60
 [ Feed ] [ Play ] [ Rest ]
 [ Save ] [ Load ]
 +--------------------------+
-Dec 03, 2025 5:05:45 PM PetSim.Observer.Main main
+Dec 03, 2025 5:05:45 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Fed glinda.
 
 play
@@ -59,7 +59,7 @@ Hunger: 50 Energy: 45 Health: 55
 [ Feed ] [ Play ] [ Rest ]
 [ Save ] [ Load ]
 +--------------------------+
-Dec 03, 2025 5:05:47 PM PetSim.Observer.Main main
+Dec 03, 2025 5:05:47 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Played with glinda.
 
 feed
@@ -75,7 +75,7 @@ Hunger: 40 Energy: 50 Health: 65
 [ Feed ] [ Play ] [ Rest ]
 [ Save ] [ Load ]
 +--------------------------+
-Dec 03, 2025 5:06:01 PM PetSim.Observer.Main main
+Dec 03, 2025 5:06:01 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Fed glinda.
 
 play
@@ -91,7 +91,7 @@ Hunger: 50 Energy: 40 Health: 60
 [ Feed ] [ Play ] [ Rest ]
 [ Save ] [ Load ]
 +--------------------------+
-Dec 03, 2025 5:06:04 PM PetSim.Observer.Main main
+Dec 03, 2025 5:06:04 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Played with glinda.
 
 feed
@@ -107,7 +107,7 @@ Hunger: 40 Energy: 45 Health: 70
 [ Feed ] [ Play ] [ Rest ]
 [ Save ] [ Load ]
 +--------------------------+
-Dec 03, 2025 5:06:08 PM PetSim.Observer.Main main
+Dec 03, 2025 5:06:08 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Fed glinda.
 
 play
@@ -123,17 +123,17 @@ Hunger: 50 Energy: 35 Health: 65
 [ Feed ] [ Play ] [ Rest ]
 [ Save ] [ Load ]
 +--------------------------+
-Dec 03, 2025 5:06:13 PM PetSim.Observer.Main main
+Dec 03, 2025 5:06:13 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Played with glinda.
 
 rest
 Your pet is fully happy! You win!
-Dec 03, 2025 5:06:14 PM PetSim.Observer.Main main
+Dec 03, 2025 5:06:14 PM PetSim.Observer.PetSimulatorRunner main
 INFO: glinda is rested.
 
-Dec 03, 2025 5:06:14 PM PetSim.Observer.Main main
+Dec 03, 2025 5:06:14 PM PetSim.Observer.PetSimulatorRunner main
 INFO: Game ended.
 
 BUILD SUCCESSFUL in 1m 35s
 2 actionable tasks: 1 executed, 1 up-to-date
-5:06:15 PM: Execution finished ':PetSim.Observer.Main.main()'.
+5:06:15 PM: Execution finished ':PetSim.Observer.PetSimulatorRunner.main()'.
